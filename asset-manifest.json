@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/projetouol/static/css/main.f6ab81e0.css",
+    "main.js": "/projetouol/static/js/main.0127b3b7.js",
+    "static/media/Banner.jpeg": "/projetouol/static/media/Banner.41ad7a435d958d6ad0b3.jpeg",
+    "static/media/card3.png": "/projetouol/static/media/card3.1564e017f736bc30913a.png",
+    "static/media/card1.png": "/projetouol/static/media/card1.31f7c8aaf13cd4952fcf.png",
+    "static/media/card2.png": "/projetouol/static/media/card2.c5e40864559bff13b55e.png",
+    "static/media/card4.jpeg": "/projetouol/static/media/card4.a4f72558bd33b19f600a.jpeg",
+    "static/media/logo.png": "/projetouol/static/media/logo.8b3902a496cb1c4c3050.png",
+    "static/media/apoio-suporte.png": "/projetouol/static/media/apoio-suporte.742caae5101d98ae2c49.png",
+    "static/media/validacao.png": "/projetouol/static/media/validacao.50c14ce5899b81a82478.png",
+    "static/media/correio.png": "/projetouol/static/media/correio.cb774effc21b5a320724.png",
+    "static/media/user.png": "/projetouol/static/media/user.e2e1f434ba0995e371b8.png",
+    "static/media/coracao.png": "/projetouol/static/media/coracao.2d3cff309880b6824969.png",
+    "static/media/trofeu.png": "/projetouol/static/media/trofeu.fbe22b4494a65354d8b1.png",
+    "index.html": "/projetouol/index.html",
+    "main.f6ab81e0.css.map": "/projetouol/static/css/main.f6ab81e0.css.map",
+    "main.0127b3b7.js.map": "/projetouol/static/js/main.0127b3b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6ab81e0.css",
+    "static/js/main.0127b3b7.js"
+  ]
+}
