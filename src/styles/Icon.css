@@ -1,0 +1,77 @@
+.container {
+  height: 250px; 
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #FAF3EA;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around; /* Espaçamento entre os itens */
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px; /* Espaçamento entre os itens */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+
+.icon {
+  margin-right: 50px;
+}
+
+.icon img {
+  width: 60px; /* Tamanho proporcional para os ícones */
+  height: 60px;
+}
+
+.text {
+  text-align: left;
+}
+
+.text h2 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 26px; /* Tamanho do título reduzido um pouco */
+}
+
+.text p {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #898989;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: auto; /* Altura automática para ajuste de conteúdo */
+  }
+
+  .row {
+    flex-direction: column; /* Altera para coluna em telas menores */
+    align-items: center; /* Centraliza os itens na coluna */
+    margin-top: 40px; /* Reduz o espaçamento entre os itens */
+    margin-right: 60px;
+  }
+
+  .icon {
+    margin-right: 0; /* Remove o espaçamento entre o ícone e o texto */
+    margin-bottom: 10px; /* Adiciona espaçamento inferior entre ícone e texto */
+    margin-right: 40px;
+  }
+
+  .text {
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .text h2 {
+    font-size: 22px; /* Reduz o tamanho do título */
+  }
+
+  .text p {
+    font-size: 16px; /* Reduz o tamanho do texto */
+  }
+}

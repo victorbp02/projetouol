@@ -1,0 +1,46 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.page-item {
+  height: 50px;
+  width: 70px;
+  background-color: #f5f1eb;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px; /* Reduzi o valor da margem lateral */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.page-item:hover:not(.active) {
+  background-color: #ded8d1;
+}
+
+.page-item.active {
+  background-color: #a57c02;
+  color: #fff;
+}
+
+.page-item:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width: 320px) {
+  .pagination {
+      flex-direction: column; /* Coloca os itens em coluna para melhor ajuste em telas pequenas */
+      margin-left: 0;
+  }
+
+  .page-item {
+      width: 100%; /* Ajusta a largura dos itens para preencher a tela */
+      margin: 10px 0; /* Ajusta a margem para espaçamento vertical */
+  }
+}

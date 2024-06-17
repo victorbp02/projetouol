@@ -1,0 +1,53 @@
+/* src/styles/Banner.css */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 350px; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    overflow: hidden; /* Garante que nada saia dos limites do banner */
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/Banner.jpeg'); /* Caminho para sua imagem */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Aplica o desfoque */
+    z-index: 0; /* Garante que o overlay fique atrás do texto */
+    opacity: 60%;
+  }
+  
+  .banner-text {
+    position: relative; /* Garante que o texto fique na frente */
+    z-index: 1; /* Garante que o texto fique na frente da imagem */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .banner-text h1 {
+    margin: 0;
+    font-size: 3em; /* Ajuste conforme necessário */
+  }
+  
+  .banner-text p {
+    margin: 10px 0 0; /* Margem acima e abaixo do parágrafo */
+    font-size: 1.2em; /* Ajuste conforme necessário */
+  }
+  
+  .breadcrumb {
+    margin-top: 10px; /* Espaçamento acima do breadcrumb */
+    font-size: 1em; /* Ajuste conforme necessário */
+    cursor: pointer;
+  }
+  
+  .breadcrumb span {
+    margin: 0 5px; /* Espaçamento entre os itens do breadcrumb */
+    font-weight: bold;
+  }
+  

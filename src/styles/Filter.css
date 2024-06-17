@@ -1,0 +1,118 @@
+.filter {
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.filter-text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.filtro-icon {
+  width: 40px;
+  height: auto;
+}
+
+.filter-text p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.filter-text span {
+  margin: 0;
+  font-size: 20px;
+}
+
+.filter-divider {
+  border: none;
+  border-left: 1px solid #000;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.filter label {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.filter select {
+  padding: 5px;
+  font-size: 1em;
+  margin-right: 20px;
+  border: none;
+}
+
+.filter-options {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.filter-options button {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filter-options button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilos CSS para iPhone SE (ou outros dispositivos com largura até 320px) */
+@media (max-width: 668px) {
+  .filter {
+    flex-direction: column; /* Alinhar itens em coluna para telas pequenas */
+    height: auto; /* Altura automática para acomodar conteúdo */
+    padding: 10px; /* Espaçamento interno reduzido */
+  }
+
+  .filter-text {
+    flex: 1 1 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .filter-text span {
+    font-size: 12px;
+    display: none;
+  }
+
+  .filtro-icon {
+    width: 30px; /* Ícone mais compacto */
+  }
+
+  .filter-divider {
+    display: none; /* Esconder barra em telas pequenas */
+  }
+
+  .filter label {
+    font-size: 16px; /* Tamanho de fonte reduzido */
+  }
+
+  .filter select {
+    width: 20%; /* Largura total */
+    margin: 0 auto; /* Centralizar select */
+    font-size: 0.8em; /* Tamanho de fonte reduzido */
+    margin-top: 10px; /* Margem superior adicionada */
+  }
+}
